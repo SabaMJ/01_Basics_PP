@@ -1,6 +1,7 @@
+/*
 console.log("hi,  Wie geht es dir?");
 // console.log(Hi)
-/* Deklaration + Wertzuweisung I */
+//Deklaration + Wertzuweisung I 
 let firstName; // Deklaration (Definition)
 //console.log(firstName); //Ausgabe
 firstName = "Saba";
@@ -13,6 +14,11 @@ test = 2+"hallo 2 you";
 //test = 2;
 console.log("Datentype: " + typeof test);
 console.log("Inhalt : " + test);
+*/
 
+const firstname = "Saba";
+//firstname = "Moradmand Jalali";
+console.log("die Name ist : " + firstname);
 
-const
+const test2 = "hi";
+console.log("inhalt : " + test2);
