@@ -12,7 +12,8 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 const prompt = require('prompt-sync')({sigint: true});
 
 
-let prompt1 = prompt("erste Zahl:?");
-let prompt2 = prompt("zweite Zahl: ? ");
+let prompt1 = parseFloat(prompt("erste Zahl:?"));
+let prompt2 = parseFloat(prompt("zweite Zahl: ? "));
+let summe = prompt1 + prompt2;
 
-console.log("Die Summe der Zahlen ist: summe" + summ (prompt1 + prompt2) );
+console.log("Die Summe der Zahlen ist: summe" + summe );
