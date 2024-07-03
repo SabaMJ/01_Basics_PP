@@ -24,11 +24,41 @@ let name = prompt("Name?: ");
 let alter = parseFloat(prompt("Alter?: "));
 
 console.log(name + " ist "+ alter + " Jahre alt.");
-if (alter > adult)
-    {
-        console.log(name + " darf alles trinken. "); //true 
-    }
-    else
-    {
-        console.log("Jahn ist jünger. "); //false 
-    }
+
+switch (alter >= 0)
+{
+    case (alter < 6) :
+        console.log(name + " darf nur Milch trinken. ");
+        break;
+    case (alter < 13):
+        console.log(name + " darf Milch und Saft trinken. ");
+        break;
+    case (alter < 18) :
+        console.log(name + " darf Milch, Saft auch Cola trinken. ");
+        break;
+    default : //alter als 18
+        console.log(name + " darf alles auch Wein trinken. ");
+}
+
+
+
+
+
+
+/*
+if(alter<6){ print ...}
+else if (alter < 13) { print ...}
+else if (alter < 18) { print ...}  -- switch-case-break 
+else {print}  -- default
+
+switch(job){
+   case 0:
+   case 1:
+    print ....
+    break;
+
+
+}
+
+
+*/
