@@ -19,7 +19,16 @@ Alter 13-17 // Cola
 const prompt = require('prompt-sync')({sigint: true});
 
 // Alles muss man selber machen lassen! ...
+const adult = 18 ;
 let name = prompt("Name?: ");
 let alter = parseFloat(prompt("Alter?: "));
 
 console.log(name + " ist "+ alter + " Jahre alt.");
+if (alter > adult)
+    {
+        console.log(name + " darf alles trinken. "); //true 
+    }
+    else
+    {
+        console.log("Jahn ist jünger. "); //false 
+    }
