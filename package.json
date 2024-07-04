@@ -1,8 +1,8 @@
 {
   "name": "01_basics_pp",
   "version": "1.0.0",
-  "description": "src/08_funktionen_I.js",
-  "main": "",
+  "description": "",
+  "main": "src/08_funktionen_I.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
