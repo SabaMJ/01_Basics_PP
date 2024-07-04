@@ -25,7 +25,7 @@ let alter = parseFloat(prompt("Alter?: "));
 
 console.log(name + " ist "+ alter + " Jahre alt.");
 
-switch (alter >= 0)
+switch (true)
 {
     case (alter < 6) :
         console.log(name + " darf nur Milch trinken. ");
