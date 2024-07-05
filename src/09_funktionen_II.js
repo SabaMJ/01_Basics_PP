@@ -26,20 +26,22 @@ function calculator(a,b, op)
 {
 	switch(op){
 		case "+": //Addition
-			return "Addition";
-			break;
+			return add(a, b);
+		
 		case "-": //Subtraktion 
-			return "Subtraktion";
-			break;
+			return subtract(a, b);
+
 		case "*": //Muliplkation 
-			return "Muliplkation";
-			break;
+			return multiply(a,b);
+
 		case "/": //Division
-			return "Division";
-			break;
-		case ":": //Fehler
+		case ":" :
+			return divide(a,b);
+
+		default : 	
+		//case ":": //Fehler
 			return "Fehler";
-			break;
+	
  	}
 
 
