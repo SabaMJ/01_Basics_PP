@@ -37,7 +37,7 @@ Geben Sie die Summe der Zahlen in die Konsole aus:
 "Die Summe der Zahlen ist: summe"
 */
 
-const prompt = require('prompt-sync')({sigint: true});
+//const prompt = require('prompt-sync')({sigint: true});
 
 /*********** Variante 1  ****************/
 // Vorteil: gute Lesbarkeit | aber viele Variablen
