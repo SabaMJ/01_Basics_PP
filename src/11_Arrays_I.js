@@ -1,5 +1,4 @@
 
-/
 /* Die Satzbau-Maschine | Arrays */
 
 /**
