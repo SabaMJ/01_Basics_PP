@@ -1,4 +1,4 @@
-/*
+
 console.log("hi,  Wie geht es dir?");
 // console.log(Hi)
 //Deklaration + Wertzuweisung I 
@@ -14,7 +14,7 @@ test = 2+"hallo 2 you";
 //test = 2;
 console.log("Datentype: " + typeof test);
 console.log("Inhalt : " + test);
-*/
+
 
 const firstname = "Saba";
 //firstname = "Moradmand Jalali";
